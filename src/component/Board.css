@@ -1,0 +1,200 @@
+.Tic{
+    background-color:black;
+    width: 100px;
+    height: -100px;
+}
+.Total{
+    position: relative;
+    top: -100px;
+}
+body{ 
+    background-color:black;
+   
+    
+    
+}
+.Tictac{ 
+    color: whitesmoke;
+    position: absolute;
+    left: 690px;
+    top: 80px;
+}
+.result{
+    color: whitesmoke;
+    font-size: 30px;
+
+    position: absolute;
+    left: 700px;
+    top: 480px;
+    
+}
+.Boxes1 img{
+   font-size: 100px;
+  position: relative;
+  top: 27px;
+  left: 25px;
+}
+.Boxes2 img{
+    font-size: 100px;
+   position: relative;
+   top: 27px;
+   left: 25px;
+ }
+ .Boxes3  img{
+    font-size: 100px;
+   position: relative;
+   top: 27px;
+   left: 25px;
+ }
+
+
+.Boxes1{
+
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow: 3px 4px 3px rgb(187, 178, 178);
+    border: solid whitesmoke;
+  
+
+}
+.Row1{
+
+    position: absolute;
+    left: 625px;
+    top: 150px;
+}
+
+.Boxes2{
+   
+
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow: 3px 4px 3px rgb(187, 178, 178);
+    border: solid whitesmoke;
+  
+
+}
+.Row2{
+
+    position: absolute;
+    left: 750px;
+    top: 150px;
+}
+.Boxes3{
+
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15%;
+    box-shadow: 3px 4px 3px rgb(187, 178, 178);
+    border: solid whitesmoke;
+  
+
+}
+.Row3{
+
+    position: absolute;
+    left: 875px;
+    top: 150px;
+}
+.Toe{
+    position: relative;
+    top: 30px;
+    left: -5px;
+}
+
+.Reset{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    padding: 3px;
+    padding-left: 4px;
+    border-radius: 10px;
+    background-color: rgba(203, 66, 203, 0.935);
+    box-shadow: 2px 3px 4px wheat;
+}
+
+@media (max-width: 480px) {
+    body {
+       
+        background-image: linear-gradient(to top, #30cfd0 0%, #330867 2%);
+        
+        }
+        .Toe{
+            font-size: 0px;
+            width: 0px;
+            height: 0px;
+            position: relative;
+            top: 30px;
+            left: -5px;
+        }
+        
+        .Boxes2{  
+
+            width: 90px;
+            height: 90px;
+          
+           }
+           .Boxes3{  
+
+            width: 90px;
+            height: 90px;
+           }
+           
+        .Boxes1{  
+
+            width: 90px;
+            height: 90px;
+           }
+
+        .Row1{
+
+            position: absolute;
+            left: 10px;
+        
+            top: 290px;
+        }
+        .Row2{
+
+            position: absolute;
+            left: 120px;
+            top: 290px;
+        }
+        .Row3{
+
+            position: absolute;
+            left: 240px;
+            top: 290px;
+        }
+        .Tictac{ 
+            color: whitesmoke;
+            position: absolute;
+            left: 60px;
+            top: 150px;
+            font-style:oblique;
+            background-color: rgb(225, 131, 8);
+           
+        }
+        .result{   
+                 font-style: italic;   
+        
+            position: absolute;
+            left: 10px;
+            top: 630px;
+            
+        }
+        .Reset{
+            font-size: smaller;
+            position: absolute;
+            top: 790px;
+            left: 150px;
+        }
+    
+  }
